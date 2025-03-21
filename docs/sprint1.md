@@ -60,3 +60,22 @@ Per a la documentació completa visita [mkdocs.org](https://www.mkdocs.org).
 ---
 
 ### Instal·lació Windows Server 2022
+
+La instal·lació en Windows Server 2022 és molt similar a la de Windows 10, per tant si heu fet l'apartat anterior sabreu fer aquest sense cap problema.
+
+1. El primer que farem és crear la vm al virtualbox, després afegirem la ISO i la mida del disc serà de 50GB. Després una vegada encesa la màquina començarem amb la instal·lació.      
+![windowsserver](./fotos/winser1.png)
+![windowsserver](./fotos/winser2.png)
+
+2. En aquest apartat de la instal·lació escollirem l'última opció, ja que volem tindre interfície gràfica.      
+![windowsserver](./fotos/winser3.png)
+
+3. Els següents passos són clicar 'Siguiente'.      
+![windowsserver](./fotos/winser4.png)
+![windowsserver](./fotos/winser5.png)
+![windowsserver](./fotos/winser6.png)
+![windowsserver](./fotos/winser7.png)
+![windowsserver](./fotos/winser8.png)
+
+4. Per últim, ja tindrem el sistema operatiu.       
+![windowsserver](./fotos/winser8.png)
