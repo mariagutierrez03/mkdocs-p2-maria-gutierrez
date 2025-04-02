@@ -6,7 +6,7 @@ Per a la documentació completa visita [mkdocs.org](https://www.mkdocs.org).
 
 ---
 ## Introducció
-En aquest treball explico com he instal·lat Windows 10 en una màquina virtual. He creat una partició de 20 GB en un disc de 40 GB, deixant els altres 20 GB per instal·lar Ubuntu 24 més endavant. Després, he restaurat el sistema d'arrencada amb Grub Repair per gestionar els dos sistemes operatius.
+En aquest treball explico com he instal·lat Windows 10 en una màquina virtual. He creat una partició de 20 GB en un disc de 40 GB, deixant els altres 20 GB per instal·lar Ubuntu 24 més endavant. Després, he restaurat el sistema d'arrencada per gestionar els dos sistemes operatius.
 
 A més, també he instal·lat Windows Server 2022 per ampliar els coneixements sobre diferents entorns de treball. Durant el procés, he revisat opcions de llicència i configurat els elements bàsics perquè tot funcioni correctament.
 
