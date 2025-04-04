@@ -84,7 +84,9 @@ La instal·lació en Windows Server 2022 és molt similar a la de Windows 10, pe
 4. Per últim, ja tindrem el sistema operatiu.       
 ![windowsserver](./fotos/winser8.png)
 
-## Instal·lació d'Ubuntu en la vm Windows 10
+## Recuperar gestor d'arrencada de Windows 10
+
+### Instal·lació d'Ubuntu en la vm Windows 10
 
 1. El primer que haurem de fer és entrar dins del windows i comprovar a partir de l'administrador de discs que realment hi ha un espai al disc dur disponible per Ubuntu.       
 ![ubuntu](./fotos/uw1.png)
@@ -112,24 +114,41 @@ La instal·lació en Windows Server 2022 és molt similar a la de Windows 10, pe
 ![ubuntu](./fotos/uw17.png)
 ![ubuntu](./fotos/uw18.png)
 
-5. Per això, recuperarem el gestor d'arrencada de Windows amb Boot-Repair. Primer haurem d'afegir la iso amb la vm apagada.     
-![ubuntu](./fotos/uw19.png)
-![ubuntu](./fotos/uw20.png)
+### Recuperació amb ISO Windows
+1. Seguidament tancarem la màquina i afegirem la iso de Windows 10, aquesta la utilitzarem per reparar el gestor d'arrencada. Per carregar la iso haurem de clicar qualsevol tecla.     
+![ubuntu](./fotos/uww1.png)
 
-6. Aquest programa és molt sencill, de forma que només haurem d'anar clicant següent i les opcions més recomanades.     
-![ubuntu](./fotos/uw21.png)
-![ubuntu](./fotos/uw22.png)
-![ubuntu](./fotos/uw23.png)
-![ubuntu](./fotos/uw24.png)
+2. Després, escollirem l'idioma.        
+![ubuntu](./fotos/uww2.png)
 
-7. Una vegada ja ha acabat apagarem la vm i treurem a iso.      
-![ubuntu](./fotos/uw25.png)
-![ubuntu](./fotos/uw26.png)
+3. Aquí haurem de anar a la part d'abaix a l'esquerra i clicar "Reparar el equipo".     
+![ubuntu](./fotos/uww3.png)
 
-8. Per últim, quan inciem la màquina podrem observar que ara si que hi ha un menu per escollir entre els dos sistemes operatius. Seguidament comprovarem que els dos funcionen de forma correcta i en Windows en l'administrador de discs podrem veure que la partició de Ubuntu està utilitzant-se.        
-![ubuntu](./fotos/uw27.png)
-![ubuntu](./fotos/uw28.png)
-![ubuntu](./fotos/uw29.png)
-![ubuntu](./fotos/uw30.png)
+4. A continuació, clicarem en "Solucionar problemas" i "Símbolo del sistema".       
+![ubuntu](./fotos/uww4.png)
+![ubuntu](./fotos/uww5.png)
+
+5. Seguidament, llistarem els discs, després seleccionarem el disc 0, llistarem les particions i escollirem la primera ja que és on està el gestor d'arrencada. Aquesta partició la configurarem com a "active" i després sortirem, per configurar el disc. Introduirem una serie de comandes que  repararan el MBR, la seqüència d'inici BOOT i reconstruirà la base de dades d'arrencada BCD.     
+![ubuntu](./fotos/uww6.png)
+![ubuntu](./fotos/uww7.png)
+![ubuntu](./fotos/uww8.png)
+
+6. El següent que haurem de fer és afegir la iso de gparted per a eliminar la partició d'Ubuntu.        
+![ubuntu](./fotos/uww9.png)
+
+7. Seguidament, una vegada encesa la màquina configurarem l'idioma.     
+![ubuntu](./fotos/uww10.png)
+![ubuntu](./fotos/uww11.png)
+![ubuntu](./fotos/uww12.png)
+
+8. Després seleccionarem la partició d'ubuntu i l'eliminarem.        
+![ubuntu](./fotos/uww13.png)
+![ubuntu](./fotos/uww14.png)
+
+9. El següent que haurem de fer és guardar el canvis.       
+![ubuntu](./fotos/uww15.png)
+![ubuntu](./fotos/uww16.png)
+![ubuntu](./fotos/uww17.png)
+
 
 
