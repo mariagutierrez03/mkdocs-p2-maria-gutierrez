@@ -150,5 +150,19 @@ La instal·lació en Windows Server 2022 és molt similar a la de Windows 10, pe
 ![ubuntu](./fotos/uww16.png)
 ![ubuntu](./fotos/uww17.png)
 
+## Llicències de Windows
+
+Microsoft Windows és un dels sistemes operatius més utilitzats a nivell mundial, especialment en entorns domèstics, educatius i empresarials. Es tracta d’un sistema operatiu de codi tancat i llicència privativa, la qual cosa significa que per utilitzar-lo legalment cal adquirir una llicència d’ús, ja sigui individual o empresarial.
+
+Al llarg del temps, Windows ha anat evolucionant a través de diverses versions, cada una amb millores significatives en rendiment, seguretat, interfície gràfica i compatibilitat amb programari i maquinari. Entre les versions més recents trobem Windows 10 i Windows 11.
+
+Windows 10 és molt estable i compatible amb una àmplia varietat de dispositius i aplicacions, fet que l’ha consolidat com a estàndard en moltes empreses i institucions educatives.
+
+Windows 11 introdueix una interfície més moderna, millor integració amb serveis al núvol i millores en el rendiment gràfic, especialment pensades per a dispositius més nous.
+
+En termes d’aplicació, Windows destaca per la seva versatilitat. S’utilitza tant en ordinadors personals com en portàtils professionals, caixers automàtics, sistemes de gestió i entorns industrials. La seva compatibilitat amb la major part del programari comercial (Microsoft Office, AutoCAD, programes de gestió empresarial, etc.) el fa especialment útil en el món laboral.
+
+A més, Microsoft ofereix diferents edicions del sistema (Home, Pro, Enterprise, Education), cadascuna adaptada a necessitats específiques, com ara la gestió centralitzada en xarxes empresarials o eines educatives.
+
 
 
