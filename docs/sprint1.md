@@ -84,6 +84,19 @@ La instal·lació en Windows Server 2022 és molt similar a la de Windows 10, pe
 4. Per últim, ja tindrem el sistema operatiu.       
 ![windowsserver](./fotos/winser8.png)
 
+### Xarxa basica
+
+1. Al ser un windows server el que farem és configurar-li una ip estàtica, per fer això haurem d'anar a "Configuració", "Xarxa", "Adaptadors de xarxa" i farem clic dret per escollir l'opció "Propietats".     
+![xarxa](./fotos/xarxa3.png) 
+
+2. Després, clicarem a sobre de IPv4.       
+![xarxa](./fotos/xarxa2.png)
+
+3. Aquí afegirem l'ip que més ens sigui convenient.         
+![xarxa](./fotos/xarxa1.png)
+
+
+
 ## Recuperar gestor d'arrencada de Windows 10
 
 ### Instal·lació d'Ubuntu en la vm Windows 10
@@ -150,19 +163,82 @@ La instal·lació en Windows Server 2022 és molt similar a la de Windows 10, pe
 ![ubuntu](./fotos/uww16.png)
 ![ubuntu](./fotos/uww17.png)
 
-## Llicències de Windows
 
-Microsoft Windows és un dels sistemes operatius més utilitzats a nivell mundial, especialment en entorns domèstics, educatius i empresarials. Es tracta d’un sistema operatiu de codi tancat i llicència privativa, la qual cosa significa que per utilitzar-lo legalment cal adquirir una llicència d’ús, ja sigui individual o empresarial.
 
-Al llarg del temps, Windows ha anat evolucionant a través de diverses versions, cada una amb millores significatives en rendiment, seguretat, interfície gràfica i compatibilitat amb programari i maquinari. Entre les versions més recents trobem Windows 10 i Windows 11.
 
-Windows 10 és molt estable i compatible amb una àmplia varietat de dispositius i aplicacions, fet que l’ha consolidat com a estàndard en moltes empreses i institucions educatives.
 
-Windows 11 introdueix una interfície més moderna, millor integració amb serveis al núvol i millores en el rendiment gràfic, especialment pensades per a dispositius més nous.
+## Instal·lar programari
 
-En termes d’aplicació, Windows destaca per la seva versatilitat. S’utilitza tant en ordinadors personals com en portàtils professionals, caixers automàtics, sistemes de gestió i entorns industrials. La seva compatibilitat amb la major part del programari comercial (Microsoft Office, AutoCAD, programes de gestió empresarial, etc.) el fa especialment útil en el món laboral.
+1. El primer que haurem de fer és anar a la pàgina oficial de Google i descarregar l’executable de Chrome.      
+![ap](./fotos/ap1.png)
 
-A més, Microsoft ofereix diferents edicions del sistema (Home, Pro, Enterprise, Education), cadascuna adaptada a necessitats específiques, com ara la gestió centralitzada en xarxes empresarials o eines educatives.
+2. Una vegada descarregat i instal·lat iniciarem sessió o crearem un compte per començar a utilitzar-lo.        
+![ap](./fotos/ap2.png)
+
+3. Seguidament, descarregarem Drive en local per a ordinadors des de la página oficial.         
+![ap](./fotos/ap3.png)
+
+4. Després començarem amb la instal·lació.      
+![ap](./fotos/ap4.png)
+
+5. A continuació, quan acabi el programa de instal·lar-se clicarem en “Lanzar” per obrir-lo.        
+![ap](./fotos/ap5.png)
+
+6. Quan estem dins començarem a configurar algunes opcions i iniciarem sessió.      
+![ap](./fotos/ap6.png)
+![ap](./fotos/ap7.png)
+![ap](./fotos/ap8.png)
+
+
+## Punts de retauració
+
+1. Obrim el menú Inici i escrivim restauració al quadre de cerca.       
+
+2. Seleccionem l’opció "Crear un punt de restauració" dels resultats que apareixen.     
+
+3. A la finestra que s’obre, anem a la pestanya "Protecció del sistema" i fem clic al botó "Crear..." que hi ha a la part inferior de la finestra.      
+![restauracio](./fotos/rest1.png)
+
+4. Escrivim un nom per identificar el punt de restauració.        
+![restauracio](./fotos/rest2.png) 
+
+5. Fem clic a "Crear" per iniciar la creació del punt. El procés pot durar uns minuts.      
+![restauracio](./fotos/rest3.png) 
+
+6. Quan ens aparegui el missatge que indica que s’ha creat correctament, fem clic a "Tancar".       
+![restauracio](./fotos/rest4.png) 
+
+7. El primer que haurem de fer és anar a la pàgina oficial i descarregar l’executable de winrar.            
+![restauracio](./fotos/rest5.png) 
+
+8. Una vegada descarregat, l'instal·larem.        
+![restauracio](./fotos/rest6.png) 
+![restauracio](./fotos/rest7.png) 
+![restauracio](./fotos/rest8.png) 
+![restauracio](./fotos/rest9.png) 
+![restauracio](./fotos/rest10.png)
+![restauracio](./fotos/rest11.png)
+
+9. Després afegirem una carpeta amb un quants fitxers, per després demostrar que les resturacions no afecten als arxius.        
+![restauracio](./fotos/fit1.png)
+![restauracio](./fotos/fit2.png) 
+
+9. Seguidament clicarem en "Restaurar sistema...", escollirem la restauració que hem creat abans i esperarem.       
+![restauracio](./fotos/rest12.png)
+![restauracio](./fotos/rest13.png)
+![restauracio](./fotos/rest14.png)
+![restauracio](./fotos/rest15.png)
+![restauracio](./fotos/rest16.png)
+![restauracio](./fotos/rest17.png)
+
+10. Quan acabi la restauració ens sortira un missatge de que s'ha fet correctament i veurem que el winrar ja no esta instal·lat. A més de que els arxius continuen estan.        
+![restauracio](./fotos/rest18.png)
+![restauracio](./fotos/rest19.png)
+![restauracio](./fotos/fit2.png) 
+
+
+
+
 
 
 
