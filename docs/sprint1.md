@@ -84,7 +84,7 @@ La instal·lació en Windows Server 2022 és molt similar a la de Windows 10, pe
 4. Per últim, ja tindrem el sistema operatiu.       
 ![windowsserver](./fotos/winser8.png)
 
-### Xarxa basica
+### Xarxa bàsica
 
 1. Al ser un windows server el que farem és configurar-li una ip estàtica, per fer això haurem d'anar a "Configuració", "Xarxa", "Adaptadors de xarxa" i farem clic dret per escollir l'opció "Propietats".     
 ![xarxa](./fotos/xarxa3.png) 
@@ -190,7 +190,7 @@ La instal·lació en Windows Server 2022 és molt similar a la de Windows 10, pe
 ![ap](./fotos/ap8.png)
 
 
-## Punts de retauració
+## Punts de restauració
 
 1. Obrim el menú Inici i escrivim restauració al quadre de cerca.       
 
