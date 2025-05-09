@@ -75,6 +75,10 @@ Al següent apartat s'explicarà pas a pas com configurar RAID-5 en Windows Serv
 ![raid](./fotos/raid23.png) 
 ![raid](./fotos/raid24.png)
 
+16. En cas de voler, afegir un nou disc a Windows Server i afegir-lo al volum del RAID-5 serà impossible fer-ho sense eliminar el volum i tornar a crear RAID-5. Si no tenim cap altra solució, el que podem fer és una còpia de seguretat del contigut del volum, per no perdre les dades. En les següent captures he eliminat el volum i al intentar accedir als continguts dona el següent error:
+![raid](./fotos/raid25.png) 
+![raid](./fotos/raid26.png)
+
 ---
 
 ## Webgrafia
