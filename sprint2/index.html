@@ -1,0 +1,1636 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://james-willett.github.io/mkdocs-material-youtube-tutorial/sprint2/">
+      
+      
+        <link rel="prev" href="../sprint1/">
+      
+      
+        <link rel="next" href="../sprint3/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Gestió d'usuaris i serveis - MkDocs Maria Gutierrez</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gestio-dusuaris-i-serveis" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MkDocs Maria Gutierrez" class="md-header__button md-logo" aria-label="MkDocs Maria Gutierrez" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MkDocs Maria Gutierrez
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gestió d'usuaris i serveis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="cyan" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Implantació de Sistemes Operatius
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sprint1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Instal·lació, configuració inicial i programari de base
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gestió d'usuaris i serveis
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sprint3/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Dominis
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sprint4/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gestió de discs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sprint5/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Autorització i auditories en Windows
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MkDocs Maria Gutierrez" class="md-nav__button md-logo" aria-label="MkDocs Maria Gutierrez" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    MkDocs Maria Gutierrez
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Implantació de Sistemes Operatius
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instal·lació, configuració inicial i programari de base
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Gestió d'usuaris i serveis
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestió d'usuaris i serveis
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introducció
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestio-de-processos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestió de processos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestió de processos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipus-de-processos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipus de processos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eines-de-gestio-de-processos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eines de gestió de processos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Eines de gestió de processos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#administracio-de-tasques-task-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      ADMINISTRACIÓ DE TASQUES (TASK MANAGER)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comandes-utils-en-cmd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comandes útils en CMD
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comandes útils en CMD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tasklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      TASKLIST
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taskkill" class="md-nav__link">
+    <span class="md-ellipsis">
+      TASKKILL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comandes-utils-en-powershell" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comandes útils en PowerShell
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestio-dusuaris-i-grups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestió d'usuaris i grups
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestió d&#39;usuaris i grups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eines-grafiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eines gràfiques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comandes-basiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comandes bàsiques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestio-de-permissos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestió de permissos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gestió de permissos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tipus-de-permisos-ntfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tipus de permisos NTFS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eines-per-configurar-permisos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eines per configurar permisos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permisos-acl-access-control-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Permisos ACL - Access Control List
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interficie-grafica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interficie gràfica
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sistema-de-fitxers-i-particions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sistema de fitxers i particions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sistema de fitxers i particions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparativa-de-sistemes-de-fitxers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparativa de sistemes de fitxers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eines-per-gestionar-particions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eines per gestionar particions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Eines per gestionar particions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#administrador-de-discs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Administrador de discs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comandes-en-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comandes en CLI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparticio-de-carpetes-i-accessos-en-xarxa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compartició de carpetes i accessos en xarxa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copia-de-seguretat-i-automatitzacio-de-tasques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Còpia de seguretat i automatització de tasques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Còpia de seguretat i automatització de tasques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#copies-de-seguretat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Còpies de seguretat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#automatitzacio-de-tasques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatització de tasques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quotes-de-disc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quotes de disc
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quotes de disc">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#com-activar-les" class="md-nav__link">
+    <span class="md-ellipsis">
+      Com activar-les
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Com activar-les">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interficie-grafica_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      INTERFÍCIE GRÀFICA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmd" class="md-nav__link">
+    <span class="md-ellipsis">
+      CMD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optimitzacio-per-a-portatils" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optimització per a portàtils
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Optimització per a portàtils">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pla-denergia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pla d’energia
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neteja-de-disc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Neteja de disc
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desfragmentacio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desfragmentació
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webgrafia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Webgrafia
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dominis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestió de discs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Autorització i auditories en Windows
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="gestio-dusuaris-i-serveis">Gestió d'usuaris i serveis</h1>
+<p>Per a la documentació completa visita <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<hr />
+<h2 id="introduccio">Introducció</h2>
+<p>Aquest projecte té com a objectiu implementar, configurar i documentar una instal·lació de Windows 10 dins d'una màquina virtual, centrant-se en la gestió del sistema operatiu des d'un punt de vista tècnic. Es treballarà sobre diferents àmbits com la gestió d'usuaris, processos, permisos, sistemes de fitxers, còpies de seguretat, entre d'altres, seguint criteris d'optimització i seguretat. La documentació s'ha redactat utilitzant MkDocs per facilitar-ne la consulta i organització.</p>
+<p><img alt="log" src="../fotos/fotointros1.jpg" /></p>
+<hr />
+<h2 id="gestio-de-processos">Gestió de processos</h2>
+<p>La gestió de processos és una part fonamental per garantir el bon funcionament i el rendiment del sistema. En aquest apartat s'analitzen els processos actius en el sistema, els serveis associats i les eines disponibles per controlar-los i optimitzar-ne l’execució.</p>
+<h3 id="tipus-de-processos">Tipus de processos</h3>
+<p>Els processos poden ser:</p>
+<ul>
+<li>
+<p>Processos de sistema: essencials per al funcionament de Windows.</p>
+</li>
+<li>
+<p>Processos d'usuari: iniciats manualment per l'usuari o automàticament en iniciar la sessió.</p>
+</li>
+<li>
+<p>Processos en segon pla: habitualment serveis o aplicacions sense interfície visual.</p>
+</li>
+</ul>
+<h3 id="eines-de-gestio-de-processos">Eines de gestió de processos</h3>
+<ul>
+<li>
+<p>Administrador de tasques (Task Manager): eina gràfica per monitoritzar i gestionar processos, ús de recursos i aplicacions.</p>
+</li>
+<li>
+<p>tasklist / taskkill: comandes per consultar i tancar processos des de línia d’ordres.</p>
+</li>
+<li>
+<p>PowerShell (Get-Process): consulta avançada de processos amb filtratge.</p>
+</li>
+</ul>
+<h4 id="administracio-de-tasques-task-manager">ADMINISTRACIÓ DE TASQUES (TASK MANAGER)</h4>
+<ol>
+<li>
+<p>Com podem observar amb aquesta eina gràfica que proporciona el propi sistema operatiu Windows 10 podem observar tots el processos actius a temps real. Si obrim qualsevol programa com Google Chrome podrem veure que automaticament es genera un proces pare i si el despleguem, estaran tots els seus processos fills o subprocessos. També ens mostra informació valiosa com per exemple consum de la CPU, Memoria, Disc i Xarxa en format de percentatge.      <br />
+<img alt="processos" src="../fotos/guip1.png" /></p>
+</li>
+<li>
+<p>A més si anem a la següent pàgina podrem veure el rendiment del sistema segons diferents apartats com CPU, Memoria, Disc i Xarxa.      <br />
+<img alt="processos" src="../fotos/guip2.png" />
+<img alt="processos" src="../fotos/guip3.png" />
+<img alt="processos" src="../fotos/guip4.png" />
+<img alt="processos" src="../fotos/guip5.png" /></p>
+</li>
+<li>
+<p>Seguidament a la tercera pàgina veurem l'historial de les aplicacions aquest és important per veure quan de temps han estat utilitzant la CPU i altres recursos.   <br />
+<img alt="processos" src="../fotos/guip6.png" /></p>
+</li>
+<li>
+<p>En la quarta pàgina podrem observar el impacte que tenen les aplicacions del llistat en quan al inici i actualitzat en cada reinici del sistema en la CPU i el disc.    <br />
+<img alt="processos" src="../fotos/guip7.png" /></p>
+</li>
+<li>
+<p>A continuació podrem observar els usuaris que estan actualment actius consumint recursos. En aquesta cas podem observar que només és un, anomenat "alumne" i si els despleguem podrem observar tots el processos que ha generat.   <br />
+<img alt="processos" src="../fotos/guip8.png" /></p>
+</li>
+<li>
+<p>Després en la següent pàgina veurem els detalls dels processos, en aquest cas ens mostra el nom, el PID, si està en execució o suspès, el nom de l'usuari que la generat i altres paràmetres. Com podem observar hi ha 9 processos de Chrome, cadascun té un PID diferent i estan tots en execució, a més si ens fixem en l'usuari indica que és "alumne" qui els ha generat.      <br />
+<img alt="processos" src="../fotos/guip9.png" /></p>
+</li>
+<li>
+<p>Per acabar, podem veure que hi ha una última pàgina que indica els serveis actius, aquest són majoriatariament processos del sistema.      <br />
+<img alt="processos" src="../fotos/guip10.png" /></p>
+</li>
+<li>
+<p>Tot seguit, una vegada que ja hem explicat totes les funcions dels apartats de l'Administrador de tasques, eliminarem el procès de Chrome. Per fer-ho d'una forma molt sencilla haurem d'anar a la primera pàgina, fer clic dret en el procès pare de "Google Chrome" i clicar en "Finalitzar tasca", així ens assegurem que cap subprocès queda en execució.      <br />
+<img alt="processos" src="../fotos/guip11.png" /></p>
+</li>
+<li>
+<p>També podem finalitzar tasques a la pàgina de "Detalls", però en aquesta no sabem quin és el procés pare, per tant, no és tant practic. Encara que normalment sol ser el primer procés.    <br />
+<img alt="processos" src="../fotos/guip12.png" /></p>
+</li>
+</ol>
+<h4 id="comandes-utils-en-cmd">Comandes útils en CMD</h4>
+<h5 id="tasklist">TASKLIST</h5>
+<ol>
+<li>
+<p>Podem utilitzar <code>tasklist</code> per llistar totes els processos en terminal, com podem observar si obrim Google Chrome ens sortiran els seus processos, per nom del procés, PID, nom de sessió i ús de memoria.     <br />
+<img alt="processos" src="../fotos/clip1.png" /></p>
+</li>
+<li>
+<p>En aquest cas si volem realment buscar el processos d'un programa concret com Chrome és inpractic anar buscant en un llistat tan llarg, per tant podrem filtrar a partir de nom de procés, en aquest cas "chrome.exe".     <br />
+<img alt="processos" src="../fotos/clip3.png" /></p>
+</li>
+</ol>
+<h5 id="taskkill">TASKKILL</h5>
+<ol>
+<li>
+<p>Per eliminar un procés haurem d'usar la comanda <code>taskkill</code>. Seguidament eliminarem el proces de Chrome a partir del PID. El primer que haurem de fer és localitzar el PID del primer procés del programa i executar la comanda, com podem veure si resulta correcte ens retoranarà un missatge de confirmació. Després comprovem que el procés està realment mort.     <br />
+<img alt="processos" src="../fotos/clip4.png" /></p>
+</li>
+<li>
+<p>Tot seguit, farem el mateix però matant el procés a partir del nom.    <br />
+<img alt="processos" src="../fotos/clip5.png" /></p>
+</li>
+</ol>
+<h4 id="comandes-utils-en-powershell">Comandes útils en PowerShell</h4>
+<ol>
+<li>
+<p>Per llistar el processos utilitzarem la comanda "Get-Process".     <br />
+<img alt="processos" src="../fotos/clip6.png" /></p>
+</li>
+<li>
+<p>Si volem llistar per nom del procés ho farem amb "Get-Process -Name chrome".   <br />
+<img alt="processos" src="../fotos/clip7.png" /></p>
+</li>
+<li>
+<p>També podem eliminar processos amb <code>Stop-Process</code>, per nom i per PID.      <br />
+<img alt="processos" src="../fotos/clip8.png" /></p>
+</li>
+</ol>
+<hr />
+<h2 id="gestio-dusuaris-i-grups">Gestió d'usuaris i grups</h2>
+<p>Una bona administració dels comptes d'usuari i grups és clau per garantir la seguretat i l'organització del sistema. A Windows 10, es poden crear, modificar i eliminar usuaris i grups tant des de la interfície gràfica com des de la línia d’ordres.</p>
+<h3 id="eines-grafiques">Eines gràfiques</h3>
+<ol>
+<li>
+<p>Per crear usuari i grups en GUI anirem a Administracio d'equips aquest és un programa que inclou el propi sistema operatiu. Si despleguem l'apartat "Usuaris i grups locals" veurem que hi han dos carpetes una d'usuaris i l'altra de grups. Vaig a començar amb le usuaris, si fem clic dret dins ens apareixerà l'opció de crear un nou usuari.     <br />
+<img alt="processos" src="../fotos/guiug1.png" /></p>
+</li>
+<li>
+<p>Una vegada se'ns ha obert la finestra, omplirem les dades del usuari, en aquest cas estic creant el meu usuari. Com podem observar hi han 4 opcions sobre la contrasenya, en aquest cas jo he decidit que no vull que expire mai.      <br />
+<img alt="processos" src="../fotos/guiug2.png" /></p>
+</li>
+<li>
+<p>Al tancar la finestra podrem veure que l'usuari ja està al llistat.    <br />
+<img alt="processos" src="../fotos/guiug3.png" /></p>
+</li>
+<li>
+<p>Seguidament iniciarem sessió amb l'usuari Maria Gutierrez.     <br />
+<img alt="processos" src="../fotos/guiug4.png" />
+<img alt="processos" src="../fotos/guiug5.png" />
+<img alt="processos" src="../fotos/guiug6.png" /></p>
+</li>
+<li>
+<p>A continuació realitzarem un procés similar per crear els grups, entrarem dins de la carpeta "Grups" i farem clic dret per afegiru un nou grup.    <br />
+<img alt="processos" src="../fotos/guiug7.png" /></p>
+</li>
+<li>
+<p>Seguidament afegirem un nom al grup en aquest cas "INFORMATICA", una descripció i membres clicant en "Agregar". Se'ns apareixerà una finestra petita on afegirem el usuaris, en aquest cas he afegit a maria.      <br />
+<img alt="processos" src="../fotos/guiug8.png" />
+<img alt="processos" src="../fotos/guiug9.png" /></p>
+</li>
+<li>
+<p>Per últim podrem observar que ja tenim el grup "INFORMATICA" al llistat.   <br />
+<img alt="processos" src="../fotos/guiug10.png" /></p>
+</li>
+</ol>
+<h3 id="comandes-basiques">Comandes bàsiques</h3>
+<p>Una bona gestió d’usuaris i grups des de la línia d’ordres ens permet automatitzar tasques, aplicar permisos ràpidament i tenir més control del sistema.</p>
+<ol>
+<li>
+<p>Les primeres comandes més importants ha aprendre son les de visualització de llistat d'usuaris, grups i integrants de grups. Com podem observar a la captura son les següents:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>net user
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>net localgroup
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>net localgroup INFORMATICA
+</code></pre></div>
+<img alt="processos" src="../fotos/cliug1.png" /></p>
+</li>
+<li>
+<p>Seguidament, creem un usuari local anomenat prova_usuari. Aquesta acció afegeix un nou compte d’usuari sense contrasenya inicial.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>net user prova_usuari /add
+</code></pre></div>
+<img alt="processos" src="../fotos/cliug2.png" /></p>
+</li>
+<li>
+<p>A continuació, assignem una contrasenya segura al compte creat. Amb això, l’usuari ja pot iniciar sessió amb la seva contrasenya definida.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>net user prova_usuari Hola1234
+</code></pre></div>
+<img alt="processos" src="../fotos/cliug3.png" /></p>
+</li>
+<li>
+<p>Seguidament, afegim l’usuari al grup d’Administradors per atorgar-li privilegis elevats dins del sistema. Aquesta acció permet comprovar si rep permisos heretats del grup.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>net localgroup Administradors prova_usuari /add
+</code></pre></div>
+<img alt="processos" src="../fotos/cliug4.png" /></p>
+</li>
+<li>
+<p>Tot seguit, creem un grup local personalitzat anomenat Proves, útil per simular entorns de treball amb estructures pròpies.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>net localgroup Proves /add
+</code></pre></div>
+<img alt="processos" src="../fotos/cliug5.png" /></p>
+</li>
+<li>
+<p>Després, afegim prova_usuari al grup Proves. Així, l’usuari forma part de més d’un grup, permetent-li accedir a diferents recursos del sistema.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>net localgroup Proves prova_usuari /add
+</code></pre></div>
+<img alt="processos" src="../fotos/cliug6.png" /></p>
+</li>
+<li>
+<p>Finalment, eliminem tant l’usuari com el grup.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>net user prova_usuari /delete
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>net localgroup Proves /delete
+</code></pre></div>
+<img alt="processos" src="../fotos/cliug7.png" />
+<img alt="processos" src="../fotos/cliug8.png" />
+<img alt="processos" src="../fotos/cliug9.png" />
+<img alt="processos" src="../fotos/cliug10.png" /></p>
+</li>
+</ol>
+<hr />
+<h2 id="gestio-de-permissos">Gestió de permissos</h2>
+<p>Els permisos determinen qui pot accedir, modificar o executar fitxers i carpetes. A Windows 10, es poden gestionar mitjançant ACL (Access Control Lists), que defineixen els drets d'accés per a cada usuari o grup.</p>
+<h3 id="tipus-de-permisos-ntfs">Tipus de permisos NTFS</h3>
+<ul>
+<li>
+<p>Lectura (R)</p>
+</li>
+<li>
+<p>Escriptura (W)</p>
+</li>
+<li>
+<p>Execució (X)</p>
+</li>
+<li>
+<p>Control total (F)</p>
+</li>
+</ul>
+<h3 id="eines-per-configurar-permisos">Eines per configurar permisos</h3>
+<ul>
+<li>
+<p>Pestanya “Seguretat” a les propietats del fitxer o carpeta.</p>
+</li>
+<li>
+<p>Comanda icacls</p>
+</li>
+</ul>
+<h3 id="permisos-acl-access-control-list">Permisos ACL - Access Control List</h3>
+<ol>
+<li>
+<p>Primer creem una carpeta anomenada ProvesPermisos al disc local. Aquesta carpeta serà el nostre espai de treball per aplicar i gestionar permisos. Afegim un nou usuari local anomenat "prova_usuari". És el compte que utilitzarem per provar els diferents nivells d'accés. Amb aquesta comanda <code>icacls "C:\ProvesPermisos" /grant prova_usuari:(R,W)</code>, concedim a "prova_usuari" permisos per llegir el contingut de la carpeta i escriure-hi (crear o modificar fitxers). No té permisos per executar ni per modificar la configuració de seguretat.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>mkdir C:\ProvesPermisos
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>net user prova_usuari /add
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>icacls &quot;C:\ProvesPermisos&quot; /grant prova_usuari:(R,W)
+</code></pre></div>
+<img alt="permisos" src="../fotos/clipermisos1.png" /></p>
+</li>
+<li>
+<p>Seguidament comprovem que al inciar sessió amb "prova_usuari" si entrem a la carpeta "C:\ProvesPermisos" veurem que podem crear i llegir contigut.     <br />
+<img alt="permisos" src="../fotos/clipermisos2.png" /></p>
+</li>
+<li>
+<p>Ara tornem a "alumne" i li donem control total a "prova_usuari". Això vol dir que l’usuari pot fer qualsevol acció: llegir, escriure, executar, eliminar fitxers i també canviar permisos o prendre possessió de fitxers.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>icacls &quot;C:\ProvesPermisos&quot; /grant prova_usuari:(F)
+</code></pre></div>
+<img alt="permisos" src="../fotos/clipermisos3.png" /></p>
+</li>
+<li>
+<p>Per comprovar la configuració nova tornarem a inciar sessió amb "prova_usuari" i des de terminal afegirem que l'usuari "maria" tingui permisos de lectura.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>icacls &quot;C:\ProvesPermisos&quot; /grant maria:(R)
+</code></pre></div>
+<img alt="permisos" src="../fotos/clipermisos4.png" /></p>
+</li>
+<li>
+<p>Des de l'usuari "maria" comprvarem que podem llegir el contigut de la carpeta "C:\ProvesPermisos".
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>cd C:\ProvesPermisos
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>dir
+</code></pre></div>
+<img alt="permisos" src="../fotos/clipermisos5.png" /></p>
+</li>
+<li>
+<p>En "alumne" utilitzarem la comanda <code>icacls "C:\ProvesPermisos"</code>. Aquesta ens mostra quins permisos hi ha actualment assignats a la carpeta i a quins usuaris o grups.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>icacls &quot;C:\ProvesPermisos&quot;
+</code></pre></div>
+<img alt="permisos" src="../fotos/clipermisos6.png" /></p>
+</li>
+<li>
+<p>Per últim eliminarem tots els permisos que tenia l’usuari prova_usuari sobre aquesta carpeta i revisarem que els canvis s'han realitzat amb la comanda anterior.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>icacls &quot;C:\ProvesPermisos&quot; /remove prova_usuari
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>icacls &quot;C:\ProvesPermisos&quot;
+</code></pre></div>
+<img alt="permisos" src="../fotos/clipermisos7.png" />
+<img alt="permisos" src="../fotos/clipermisos8.png" /></p>
+</li>
+</ol>
+<h3 id="interficie-grafica">Interficie gràfica</h3>
+<ol>
+<li>
+<p>En GUI el procés és tan sencill i intuïtiu que fins a una persona no experta ho podria fer. Només haurem de fer clic dret a la carpeta o fitxer en el qual dessitjem canviar el permisos i clicar en l'opció "Propietats" i després en la pestanya "Seguretat", aquí dins podrem seleccionar diferents usuaris i a partir del llistat de permissos marcarem si ens interessen o no.    <br />
+<img alt="permisos" src="../fotos/guipermisos1.png" /></p>
+</li>
+<li>
+<p>En aquest cas he decidit que vull eliminar l'accés de la carpeta ProvesPermisos al grup on estan tots el usuaris del sistema. Per tant clicarem en "Opcions avançades", després a "Deshabilitar herencia" i "Convertir els permisos heredats en permisos explicits en aquest objecte".     <br />
+<img alt="permisos" src="../fotos/guipermisos3.png" />
+<img alt="permisos" src="../fotos/guipermisos4.png" />
+<img alt="permisos" src="../fotos/guipermisos5.png" /></p>
+</li>
+<li>
+<p>Seguidament clicarem en "Editar...", seleccionarem el grup "Usuaris" i clicarem en "Treure".   <br />
+<img alt="permisos" src="../fotos/guipermisos6.png" />
+<img alt="permisos" src="../fotos/guipermisos7.png" /></p>
+</li>
+<li>
+<p>Per últim aplicarem els canvis. Com hem pogut observar és molt més simple que pel terminal.    <br />
+<img alt="permisos" src="../fotos/guipermisos8.png" /></p>
+</li>
+</ol>
+<hr />
+<h2 id="sistema-de-fitxers-i-particions">Sistema de fitxers i particions</h2>
+<p>El sistema de fitxers organitza i gestiona com s’emmagatzemen les dades al disc. A més, la gestió de particions permet separar dades, sistemes o aplicacions de forma lògica per millorar el rendiment i la seguretat.</p>
+<h3 id="comparativa-de-sistemes-de-fitxers">Comparativa de sistemes de fitxers</h3>
+<table>
+<thead>
+<tr>
+<th>Sistema de fitxers</th>
+<th>Mida màxima d’arxiu</th>
+<th>Compatibilitat</th>
+<th>Suport de permisos NTFS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NTFS</strong></td>
+<td>&gt;16 TB</td>
+<td>Windows</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td><strong>FAT32</strong></td>
+<td>4 GB</td>
+<td>Universal (Windows, Linux, macOS)</td>
+<td>No</td>
+</tr>
+<tr>
+<td><strong>exFAT</strong></td>
+<td>128 PB</td>
+<td>Universal (excepte sistemes antics)</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h3 id="eines-per-gestionar-particions">Eines per gestionar particions</h3>
+<h4 id="administrador-de-discs">Administrador de discs</h4>
+<ol>
+<li>
+<p>El primer que haurem de fer és afegir un disc nou a la màquina virtual amb 10 GB.      <br />
+<img alt="fitxers" src="../fotos/sisfp1.png" /></p>
+</li>
+<li>
+<p>Seguidament obrirem l'administrador de discs i ens aparexerà una finestra automaticament en la que clicarem "Acceptar".    <br />
+<img alt="fitxers" src="../fotos/sisfp2.png" /></p>
+</li>
+<li>
+<p>A continuació farem clic dret sobre el nom disc i escollirem l'opció "Nou volum simple...". Després clicarem en "Següent" per començar.      <br />
+<img alt="fitxers" src="../fotos/sisfp3.png" />
+<img alt="fitxers" src="../fotos/sisfp4.png" /></p>
+</li>
+<li>
+<p>Aqui podrem escollir la mida de la partició, si ho deixem com a predeterminat veurem que ocupa tot el disc.    <br />
+<img alt="fitxers" src="../fotos/sisfp5.png" /></p>
+</li>
+<li>
+<p>Seguidament li assignarem una lletra, aquest normalment és deixa per defecte.      <br />
+<img alt="fitxers" src="../fotos/sisfp6.png" /></p>
+</li>
+<li>
+<p>Després formatarem la partició, en aquest cas ho he deixat amb les opcions predeterminades i he etiquetat el volum com a "Proves".     <br />
+<img alt="fitxers" src="../fotos/sisfp7.png" /></p>
+</li>
+<li>
+<p>Per últim, clicarem en "Finalitzar".   <br />
+<img alt="fitxers" src="../fotos/sisfp8.png" /></p>
+</li>
+<li>
+<p>Com podem observar, ara ja tenim el volum E: operatiu.      <br />
+<img alt="fitxers" src="../fotos/sisfp9.png" /></p>
+</li>
+<li>
+<p>En cas de voler fer una partició perquè ens hem oblidat abans, farem clic dret i escollirem l'opció "Reduir volum...". Després escollirem el tamany, en aquest cas jo he escollit 5GB i clicarem el "Reduir".      <br />
+<img alt="fitxers" src="../fotos/sisfp10.png" />
+<img alt="fitxers" src="../fotos/sisfp11.png" /></p>
+</li>
+<li>
+<p>Per configurar el altres 5GB farem el mateix proces del principi.     <br />
+<img alt="fitxers" src="../fotos/sisfp12.png" />
+<img alt="fitxers" src="../fotos/sisfp13.png" />
+<img alt="fitxers" src="../fotos/sisfp14.png" />
+<img alt="fitxers" src="../fotos/sisfp15.png" />
+<img alt="fitxers" src="../fotos/sisfp16.png" />
+<img alt="fitxers" src="../fotos/sisfp17.png" />
+<img alt="fitxers" src="../fotos/sisfp18.png" />
+<img alt="fitxers" src="../fotos/sisfp19.png" /></p>
+</li>
+<li>
+<p>Per últim eliminarem els dos volums per poder fer la següent part: "Comandes en CLI".     <br />
+<img alt="fitxers" src="../fotos/sisfp20.png" />
+<img alt="fitxers" src="../fotos/sisfp21.png" />
+<img alt="fitxers" src="../fotos/sisfp22.png" /></p>
+</li>
+</ol>
+<h4 id="comandes-en-cli">Comandes en CLI</h4>
+<ol>
+<li>
+<p>Per fer el mateix procés que abans, però en cmd, usarem <code>diskpart</code>. Després amb <code>list disk</code> llistarem tots discs, com podem observar a nosaltres ens interesa el disk 1.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>diskpart
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>list disk
+</code></pre></div>
+<img alt="fitxers" src="../fotos/sisfp23.png" /></p>
+</li>
+<li>
+<p>Seguidament el seleccionarem i llistarem les particions que te configurades, com podem observar no en te.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>select disk 1
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>list partition
+</code></pre></div>
+<img alt="fitxers" src="../fotos/sisfp24.png" /></p>
+</li>
+<li>
+<p>A continuació crearem una partició primaria de 5GB, la formatarem amb ntfs i li assignarem la lletra G.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>create partition primary size=5000
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>format fs=ntfs quick
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>assign letter=G
+</code></pre></div>
+<img alt="fitxers" src="../fotos/sisfp25.png" /></p>
+</li>
+<li>
+<p>Per últim ho comprovarem amb l'administrador de discs. <br />
+<img alt="fitxers" src="../fotos/sisfp26.png" /></p>
+</li>
+</ol>
+<h3 id="comparticio-de-carpetes-i-accessos-en-xarxa">Compartició de carpetes i accessos en xarxa</h3>
+<ol>
+<li>
+<p>El primer que haurem de fer és clic dret en la carpeta i anar a Propietats. Després clicarem en la pestanya Compartir i farem clic en "Compartir...".      <br />
+<img alt="comparticio" src="../fotos/cx1.png" /></p>
+</li>
+<li>
+<p>Seguidament escollirem els grups o usuaris als que volem donar permissos.      <br />
+<img alt="comparticio" src="../fotos/cx2.png" /></p>
+</li>
+<li>
+<p>Comprovarem la connexió entre les màquines virtuals.   <br />
+<img alt="comparticio" src="../fotos/cx3.png" />
+<img alt="comparticio" src="../fotos/cx4.png" /> </p>
+</li>
+<li>
+<p>Des de l'altra vm anirem a la carpeta compartida amb la ruta "\DESKTOP-65S07CI\ProvesPermisos" o "\192.168.0.108\ProvesPermisos".    <br />
+<img alt="comparticio" src="../fotos/cx5.png" /></p>
+</li>
+<li>
+<p>Seguidament crearem una carpeta i després anirem a comprovar a la vm que allotja la carpeta si s'ha creat.     <br />
+<img alt="comparticio" src="../fotos/cx6.png" />
+<img alt="comparticio" src="../fotos/cx7.png" /></p>
+</li>
+</ol>
+<hr />
+<h2 id="copia-de-seguretat-i-automatitzacio-de-tasques">Còpia de seguretat i automatització de tasques</h2>
+<p>La còpia de seguretat és vital per protegir les dades davant errors o fallades del sistema. A més, l’automatització de tasques permet executar accions regulars sense intervenció manual.</p>
+<h3 id="copies-de-seguretat">Còpies de seguretat</h3>
+<ol>
+<li>
+<p>El primer que farem és obrir el cmd en mode administrador, crear la carpeta DadesImportants i un fitxer en C:.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>mkdir C:\DadesImportants
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>echo Hola món &gt; C:\DadesImportants\hola.txt
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>mkdir G:\BackupDades
+</code></pre></div>
+<img alt="copies" src="../fotos/c1.png" /></p>
+</li>
+<li>
+<p>A més també crearem la carpeta BackupDades al volum G:, aquesta serà la ruta de destí al crear la backup. Després executarem amb robocopy la següent comanda: <code>robocopy C:\DadesImportants G:\BackupDades /MIR</code>. L'opció /MIR fa una rèplica exacta de la carpeta origen a la destinació, incloent-hi l'eliminació de fitxers que ja no existeixin a l'origen.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>robocopy C:\DadesImportants G:\BackupDades /MIR
+</code></pre></div>
+<img alt="copies" src="../fotos/c2.png" /></p>
+</li>
+<li>
+<p>Per últim comprovarem el contigut de G:\BackupDades.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>dir G:\BackupDades
+</code></pre></div>
+<img alt="copies" src="../fotos/c3.png" /></p>
+</li>
+</ol>
+<h3 id="automatitzacio-de-tasques">Automatització de tasques</h3>
+<ol>
+<li>
+<p>Seguidament per automatitzar tasques o en aquest cas la copia de seguretat utilitzarem el "Programador de tasques".    <br />
+<img alt="copies" src="../fotos/c4.png" /></p>
+</li>
+<li>
+<p>Una vegada obert clicarem en "Crear tasca bàsica..." i li ficarem un nom.      <br />
+<img alt="copies" src="../fotos/c5.png" /></p>
+</li>
+<li>
+<p>Tot seguit escollirem que sigui setmanalment els diumenges a les 12:30.    <br />
+<img alt="copies" src="../fotos/c6.png" />
+<img alt="copies" src="../fotos/c7.png" /></p>
+</li>
+<li>
+<p>Escollirem l'opció de Iniciar un programa, ficarem robocopy i la comanda.      <br />
+<img alt="copies" src="../fotos/c8.png" />
+<img alt="copies" src="../fotos/c9.png" /></p>
+</li>
+<li>
+<p>Per últim finalitzarem la configuració.    <br />
+<img alt="copies" src="../fotos/c10.png" /></p>
+</li>
+<li>
+<p>Abans de que s'execute la tasca programada, afegirem un nou fitxer a la carpeta origen per després comprovar que realment a funcionat.     <br />
+<img alt="copies" src="../fotos/c11.png" /></p>
+</li>
+<li>
+<p>Finalment, esperarem fins que sigui la hora i després revisarem el resultat.   <br />
+<img alt="copies" src="../fotos/c12.png" /></p>
+</li>
+</ol>
+<hr />
+<h2 id="quotes-de-disc">Quotes de disc</h2>
+<p>Les quotes de disc permeten limitar l’espai que cada usuari pot utilitzar en un volum NTFS. Aquesta funcionalitat és útil per evitar l’ocupació excessiva del disc i garantir un ús equitatiu dels recursos.</p>
+<h3 id="com-activar-les">Com activar-les</h3>
+<h4 id="interficie-grafica_1">INTERFÍCIE GRÀFICA</h4>
+<ol>
+<li>
+<p>El primer que haurem de fer és afegir un nou disc de 5GB per configurar les quotes.    <br />
+<img alt="quotes" src="../fotos/quota1.png" /></p>
+</li>
+<li>
+<p>Una vegada ja hem afegit el disc a Windows i l'hem formatat, farem clic dret i anirem a "Propietats". Aquí entrarem dins de la pestanya "Quota" i clicarem a sobre de "Mostrar configuració de quota".     <br />
+<img alt="quotes" src="../fotos/quota2.png" />
+<img alt="quotes" src="../fotos/quota3.png" /></p>
+</li>
+<li>
+<p>Tot seguit, clicarem en el requadre que diu "Habilitar l'administració de quota", aquí podem limitar l'espai del disc en general, és a dir fer una quota compartida amb tots el usuaris o podem fer-ho de forma aïllada i personalitzada clicant en "Valors de quota".     <br />
+<img alt="quotes" src="../fotos/quota4.png" />
+<img alt="quotes" src="../fotos/quota5.png" /></p>
+</li>
+<li>
+<p>Seguidament se'ns obrirà una altra finestra, aquí clicarem en "Quota" i després en "Nova entrada de quota...". El següent que farem és afegir l'usuari o grup al qual volem afegir una quota, en aquest cas he escollit a l'usuari prova_usuari.   <br />
+<img alt="quotes" src="../fotos/quota6.png" />
+<img alt="quotes" src="../fotos/quota7.png" /></p>
+</li>
+<li>
+<p>A continuació, afegirem quin serà l'espai de disc el qual no hauria de trapassar i el d'advertencia. Al acabar aplicarem el canvis i iniciarem sessió amb l'usuari prova_usuari.   <br />
+<img alt="quotes" src="../fotos/quota8.png" />
+<img alt="quotes" src="../fotos/quota9.png" /></p>
+</li>
+<li>
+<p>En prova_usuari anirem a la carpeta i afegirem informació que supere el 50KB.      <br />
+<img alt="quotes" src="../fotos/quota10.png" /></p>
+</li>
+<li>
+<p>Al tornar a l'usuari administrador per poder revisar la quota veurem que l'estat està en mode advertencia i indica la quantitat que porta utilitzada l'usuari, en aquest cas 69KB.     <br />
+<img alt="quotes" src="../fotos/quota11.png" /></p>
+</li>
+<li>
+<p>Seguidament sobrepassarem el 100KB, com podem observar seguirà deixant que puji informació, perquè no hem habilitat l'opció de que sigui prohibit al traspassar la quota.      <br />
+<img alt="quotes" src="../fotos/quota13.png" /></p>
+</li>
+<li>
+<p>Quan tornem a l'administracio de les quotes veurem que ara l'estat és d'alerta perquè l'usuari a passat els 100KB.     <br />
+<img alt="quotes" src="../fotos/quota14.png" /></p>
+</li>
+</ol>
+<h4 id="cmd">CMD</h4>
+<ol>
+<li>
+<p>Ara que ja hem vist com fer les quotes de disc en Interficie Gràfica, les realitzarem amb CLI. La comanda més bàsica és visualitzar la configuració de quotes, com podem observar la quota no està activa en el disc E:, per tant l'activarem amb <code>fsutil quota track E:</code>.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>fsutil quota query E:
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>fsutil quota track E:
+</code></pre></div>
+<img alt="quotes" src="../fotos/quota15.png" /></p>
+</li>
+<li>
+<p>Tot seguit, executarem la comanda <code>fsutil quota enforce E:</code>, els usuaris que superin el límit rebran un avís o es bloquejarà l’escriptura. A més aplicarem una quota a l'usuari maria, aquesta tindra el mateixos limits, al superar 50KB advertencia i als 100KB bloqueig, gràcies a que hem executat la comanda anterior.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>fsutil quota enforce E:
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>fsutil quota modify E: 50240 102400 maria
+</code></pre></div>
+<img alt="quotes" src="../fotos/quota16.png" /></p>
+</li>
+<li>
+<p>Si revisem l'estat de configuració veurem la nova quota.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>fsutil quota query E:
+</code></pre></div>
+<img alt="quotes" src="../fotos/quota17.png" /></p>
+</li>
+<li>
+<p>En anar a l'usuari maria i superar la quota ens sortirà un avís de bloqueig conforme no podem seguir afegint fitxers.      <br />
+<img alt="quotes" src="../fotos/quota18.png" /></p>
+</li>
+<li>
+<p>Al tornar una altra vegada la configuració podrem veure l'espai que porta utilitzat.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>fsutil quota query E:
+</code></pre></div>
+<img alt="quotes" src="../fotos/quota19.png" /></p>
+</li>
+<li>
+<p>Per últim, la comanda <code>fsutil quota disable E:</code>, desactiva completament el sistema de quotes per al volum seleccionat.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>fsutil quota disable E:
+</code></pre></div>
+<img alt="quotes" src="../fotos/quota20.png" /></p>
+</li>
+</ol>
+<hr />
+<h2 id="optimitzacio-per-a-portatils">Optimització per a portàtils</h2>
+<p>Per millorar el rendiment, reduir el consum d'energia i allargar la duració de la bateria en sistemes portàtils amb Windows 10, es poden aplicar aquestes accions bàsiques:</p>
+<h3 id="pla-denergia">Pla d’energia</h3>
+<p>Haurem de clicar en la icona d'una bateria, abaix a la dreta. Aquí ficarem la barra fins a l'esquerra per configurar-ho com estalvi d'energia. També podem fer-ho obrint el Panell de control, anant a Opcions d’energia i seleccionant el pla Estalvi d’energia per reduir el consum de recursos quan no sigui necessari.    <br />
+<img alt="portatil" src="../fotos/portatil1.png" /></p>
+<h3 id="neteja-de-disc">Neteja de disc</h3>
+<p>Utilitzarem l’eina de neteja de disc per eliminar fitxers temporals i innecessaris. Això ajuda a alliberar espai i millorar el rendiment.     <br />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a>cleanmgr
+</code></pre></div>
+<img alt="portatil" src="../fotos/portatil2.png" />
+<img alt="portatil" src="../fotos/portatil3.png" />
+<img alt="portatil" src="../fotos/portatil4.png" />
+<img alt="portatil" src="../fotos/portatil5.png" />
+<img alt="portatil" src="../fotos/portatil6.png" /></p>
+<h3 id="desfragmentacio">Desfragmentació</h3>
+<p>La desfragmentació millora l’accés als fitxers (especialment en discs durs mecànics). Seleccionem el disc i fem clic a Optimitza.     <br />
+<div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a>dfrgui
+</code></pre></div>
+<img alt="portatil" src="../fotos/portatil7.png" />
+<img alt="portatil" src="../fotos/portatil8.png" /></p>
+<hr />
+<h2 id="webgrafia">Webgrafia</h2>
+<p>Molta de la informació extreta està al Moodle de 0369 - Implantació de Sistemes Operatius. Seguidament, els següents links són d'internet:</p>
+<p>IONOS. Obrir el gestor de tasques a Windows. Disponible a: <a href="https://www.ionos.es/digitalguide/servidores/configuracion/abrir-el-administrador-de-tareas/">https://www.ionos.es/digitalguide/servidores/configuracion/abrir-el-administrador-de-tareas/</a></p>
+<p>OpenWebinars. Gestió de processos i serveis des de scripts en Windows. Disponible a: <a href="https://openwebinars.net/blog/gestion-de-procesos-y-servicios-desde-shell-script-en-windows/">https://openwebinars.net/blog/gestion-de-procesos-y-servicios-desde-shell-script-en-windows/</a></p>
+<p>ADSLZone. Canviar permisos d'usuari a Windows 10. Disponible a: <a href="https://www.adslzone.net/esenciales/windows-10/cambiar-permisos-usuario/">https://www.adslzone.net/esenciales/windows-10/cambiar-permisos-usuario/</a></p>
+<p>ADSLZone. Canviar permisos de fitxers i carpetes a Windows 10. Disponible a: <a href="https://www.adslzone.net/esenciales/windows-10/cambiar-permisos-archivo-carpeta/">https://www.adslzone.net/esenciales/windows-10/cambiar-permisos-archivo-carpeta/</a></p>
+<p>Educatica. Cas pràctic: Administració d'usuaris i grups a Windows 10. Disponible a: <a href="https://www.educatica.es/informatica/caso-practico-administracion-de-usuarios-y-grupos-en-windows-10/">https://www.educatica.es/informatica/caso-practico-administracion-de-usuarios-y-grupos-en-windows-10/</a></p>
+<p>IBM Docs. Crear un grup local a Windows. Disponible a: <a href="https://www.ibm.com/docs/es/ibm-mq/9.2.x?topic=windows-creating-group">https://www.ibm.com/docs/es/ibm-mq/9.2.x?topic=windows-creating-group</a></p>
+<p>UFS Explorer. Sistemes de fitxers de Windows. Disponible a: <a href="https://www.ufsexplorer.com/es/articles/windows-file-systems/?srsltid=AfmBOortDh_2x4gSUqbZ-5ErprS7i4WZxN3rVrX12tlME33Ho3ZgGajo">https://www.ufsexplorer.com/es/articles/windows-file-systems/?srsltid=AfmBOortDh_2x4gSUqbZ-5ErprS7i4WZxN3rVrX12tlME33Ho3ZgGajo</a></p>
+<p>YouTube. Administració bàsica de quotes i permisos a Windows 10. Disponible a: <a href="https://www.youtube.com/watch?v=KqIe9hfAM38">https://www.youtube.com/watch?v=KqIe9hfAM38</a></p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://mariagutierrez03.github.io/mkdocs-maria-gutierrez/">Mkdocs</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/mariagutierrez03">Maria Gutierrez</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.download"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

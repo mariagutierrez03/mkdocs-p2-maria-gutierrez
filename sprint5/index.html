@@ -1,0 +1,750 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://james-willett.github.io/mkdocs-material-youtube-tutorial/sprint5/">
+      
+      
+        <link rel="prev" href="../sprint4/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Autorització i auditories en Windows - MkDocs Maria Gutierrez</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#autoritzacio-i-auditories-en-windows" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MkDocs Maria Gutierrez" class="md-header__button md-logo" aria-label="MkDocs Maria Gutierrez" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MkDocs Maria Gutierrez
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Autorització i auditories en Windows
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="cyan" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Implantació de Sistemes Operatius
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sprint1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Instal·lació, configuració inicial i programari de base
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sprint2/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gestió d'usuaris i serveis
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sprint3/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Dominis
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../sprint4/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Gestió de discs
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Autorització i auditories en Windows
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MkDocs Maria Gutierrez" class="md-nav__button md-logo" aria-label="MkDocs Maria Gutierrez" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    MkDocs Maria Gutierrez
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Implantació de Sistemes Operatius
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instal·lació, configuració inicial i programari de base
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestió d'usuaris i serveis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dominis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestió de discs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Autorització i auditories en Windows
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Autorització i auditories en Windows
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introducció
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autoritzacio-en-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Autorització en Windows
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auditories-que-son-i-per-a-que-serveixen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Auditories: què són i per a què serveixen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-practica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part pràctica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webgrafia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Webgrafia
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="autoritzacio-i-auditories-en-windows">Autorització i auditories en Windows</h1>
+<p>Per a la documentació completa visita <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<hr />
+<h2 id="introduccio">Introducció</h2>
+<p>En aquesta part de la documentació, es treballa l’autorització i, sobretot, les auditories en Windows Server. S’explica com es configuren les auditories de seguretat, per a què serveixen i com ajuden a controlar l’accés als recursos i detectar activitats sospitoses.</p>
+<p>També es fan proves pràctiques per veure com funcionen, generant esdeveniments tant correctes com erronis, i analitzant els resultats al visor d’esdeveniments del sistema.</p>
+<p><img alt="log" src="../fotos/fotointros1.jpg" /></p>
+<hr />
+<h2 id="autoritzacio-en-windows">Autorització en Windows</h2>
+<p>L’autorització a Windows serveix per controlar qui pot fer què dins del sistema. És a dir, pots decidir quins usuaris poden veure, obrir, modificar o esborrar fitxers o carpetes. Això es fa posant permisos als usuaris o grups. Per exemple, pots fer que un usuari només pugui llegir una carpeta però no canviar res. També pots fer que un altre usuari pugui modificar-ho tot. Això es fa des de les propietats del fitxer o carpeta, a l'apartat de "seguretat".</p>
+<p>També existeixen les "directives de seguretat", que són normes que es poden aplicar al sistema per controlar millor els permisos i les accions dels usuaris. Es poden aplicar a un sol ordinador o a molts si estàs en una xarxa amb un servidor.</p>
+<hr />
+<h2 id="auditories-que-son-i-per-a-que-serveixen">Auditories: què són i per a què serveixen</h2>
+<p>Les auditories són com un sistema de control que et permet saber què passa dins del teu Windows Server. Serveixen per registrar coses com qui ha intentat entrar al sistema, qui ha accedit a una carpeta, qui ha modificat un fitxer, etc. És molt útil si vols tenir un control de seguretat i saber si algú fa coses rares o no autoritzades.</p>
+<p>Amb les auditories pots saber, per exemple, si algú ha intentat entrar amb un usuari que no li tocava, o si ha volgut esborrar un arxiu important. També t’ajuden a veure si tot funciona bé o si cal canviar alguna configuració.</p>
+<p>Per activar les auditories a Windows, s’ha d’obrir secpol.msc i escollir què es vol controlar, com inici de sessió o accés a fitxers. Després, cal anar a les propietats del fitxer o carpeta, a “Seguretat” i afegir l’usuari que volem auditar i què volem registrar.</p>
+<p>Els resultats es poden veure al visor d’esdeveniments (eventvwr.msc), on apareixen amb codis com el 4624 (entrada correcta) o 4625 (fallida). És important no activar massa auditories perquè poden fer el sistema més lent.</p>
+<hr />
+<h2 id="part-practica">Part pràctica</h2>
+<ol>
+<li>
+<p>El primer que hem de fer és anar a "Directivas de seguridad local" &gt; "Directivas locales" &gt; "Directiva de auditoría". Allà activem dues opcions importants: "Auditar eventos de inicio de sesión" i "Auditar el acceso a objetos". Això farà que el sistema comenci a registrar qui inicia sessió i qui accedeix a fitxers o carpetes.     <br />
+<img alt="auditories" src="../fotos/aud1.png" /> 
+<img alt="auditories" src="../fotos/aud2.png" /> 
+<img alt="auditories" src="../fotos/aud3.png" /> 
+<img alt="auditories" src="../fotos/aud6.png" /> </p>
+</li>
+<li>
+<p>Després, fem un inici de sessió amb qualsevol usuari. Si tot va bé, al Visor d’esdeveniments (eventvwr.msc) ens hauria d’aparèixer l’event ID 4624, que vol dir que l'inici de sessió ha estat correcte.   <br />
+<img alt="auditories" src="../fotos/aud4.png" /> 
+<img alt="auditories" src="../fotos/aud5.png" /> </p>
+</li>
+<li>
+<p>A continuació, creem una carpeta nova i hi configurem l’auditoria. A les propietats de la carpeta, afegim a l’usuari Maria amb permisos de només lectura a l’apartat d’auditoria.      <br />
+<img alt="auditories" src="../fotos/aud7.png" /> 
+<img alt="auditories" src="../fotos/aud8.png" /> 
+<img alt="auditories" src="../fotos/aud9.png" /> 
+<img alt="auditories" src="../fotos/aud10.png" /> 
+<img alt="auditories" src="../fotos/aud11.png" /> </p>
+</li>
+<li>
+<p>També afegim l’usuari Administrador amb tots els permisos per a que puguem provar diferents accions.   <br />
+<img alt="auditories" src="../fotos/aud14.png" /> </p>
+</li>
+<li>
+<p>Quan fem accions com crear, llegir o modificar arxius dins la carpeta, si anem al Visor d’esdeveniments veurem l’event ID 4663, que ens indica que s’ha accedit a un objecte (en aquest cas, la carpeta o els arxius).     <br />
+<img alt="auditories" src="../fotos/aud15.png" /> 
+<img alt="auditories" src="../fotos/aud16.png" /> </p>
+</li>
+<li>
+<p>Ara activem l’auditoria de "Auditar el seguimiento de procesos". Per provar-la, simplement obrim un programa, com per exemple Microsoft Edge. Això hauria de generar l’event ID 4688, que indica que s’ha iniciat un procés.   <br />
+<img alt="auditories" src="../fotos/aud17.png" /> 
+<img alt="auditories" src="../fotos/aud18.png" /> 
+<img alt="auditories" src="../fotos/aud19.png" /> 
+<img alt="auditories" src="../fotos/aud20.png" /> 
+<img alt="auditories" src="../fotos/aud21.png" /> </p>
+</li>
+<li>
+<p>Per veure l’event ID 4689, que mostra quan un procés acaba, tanquem Edge des del Administrador de tasques (taskmgr).   <br />
+<img alt="auditories" src="../fotos/aud22.png" /> </p>
+</li>
+<li>
+<p>Després activem "Auditar la administración de cuentas". Aquí farem algunes proves: primer, creem un usuari nou. Això generarà els codis 4720 (usuari creat) i 4722 (usuari activat).   <br />
+<img alt="auditories" src="../fotos/aud23.png" /> 
+<img alt="auditories" src="../fotos/aud24.png" /> 
+<img alt="auditories" src="../fotos/aud25.png" /> 
+<img alt="auditories" src="../fotos/aud26.png" /> 
+<img alt="auditories" src="../fotos/aud27.png" /> </p>
+</li>
+<li>
+<p>Si després desactivem aquest usuari, veurem el codi 4725 al visor.     <br />
+<img alt="auditories" src="../fotos/aud28.png" /> 
+<img alt="auditories" src="../fotos/aud29.png" /> </p>
+</li>
+<li>
+<p>I finalment, si eliminem l’usuari, apareixerà el codi 4726.   <br />
+<img alt="auditories" src="../fotos/aud30.png" /> 
+<img alt="auditories" src="../fotos/aud31.png" /></p>
+</li>
+</ol>
+<hr />
+<h2 id="webgrafia">Webgrafia</h2>
+<p>Molta de la informació extreta està al Moodle de 0369 - Implantació de Sistemes Operatius. Seguidament, els següents links són d'internet:</p>
+<ul>
+<li>Vídeo YouTube: Cómo configurar auditorías en Windows Server. Disponible a: <a href="https://www.youtube.com/watch?app=desktop&amp;v=4UgQnVhA9sU">https://www.youtube.com/watch?app=desktop&amp;v=4UgQnVhA9sU</a></li>
+<li>Vídeo YouTube: Auditorías en Windows Server 2019. Disponible a: <a href="https://www.youtube.com/watch?v=FqOYtkzNs8U">https://www.youtube.com/watch?v=FqOYtkzNs8U</a></li>
+<li>Documentació oficial de Microsoft sobre polítiques d’auditoria centralitzades. Disponible a: <a href="https://learn.microsoft.com/es-es/windows-server/identity/solution-guides/deploy-security-auditing-with-central-audit-policies--demonstration-steps-">https://learn.microsoft.com/es-es/windows-server/identity/solution-guides/deploy-security-auditing-with-central-audit-policies--demonstration-steps-</a></li>
+<li>Micromouse: Política de auditoría en Windows. Disponible a: <a href="https://www.micromouse.com/2023/07/21/politica-auditoria-windows/">https://www.micromouse.com/2023/07/21/politica-auditoria-windows/</a></li>
+<li>Blog UGR: Activar la auditoría de inicio de sesión en Windows. Disponible a: <a href="https://blogs.ugr.es/seguridadinformatica/activar-la-auditoria-de-inicio-de-sesion-en-windows/">https://blogs.ugr.es/seguridadinformatica/activar-la-auditoria-de-inicio-de-sesion-en-windows/</a></li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://mariagutierrez03.github.io/mkdocs-maria-gutierrez/">Mkdocs</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/mariagutierrez03">Maria Gutierrez</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.download"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
